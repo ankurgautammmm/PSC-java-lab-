@@ -1,0 +1,21 @@
+class Student {
+    int roll;
+    String name;
+    Student(){
+        roll = 2;
+        name = "Rahul";
+    }
+    Student (int r, String n){
+        roll =r;
+        name =n;
+    }
+    void display(){
+        System.out.println("Roll:"+roll+"Name:"+name);
+    }
+public static void main(String[]args){
+    Student s2=new Student();
+    Student s1=new Student(1,"Ankur");
+    s1.display();
+    s2.display();
+}
+}
